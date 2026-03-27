@@ -1,0 +1,17 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/antmicro/fastvdma
+  branch: main
+  commit: 9ec9f3ae8fc51ade5ff3ed70d96dca1b1d810a9a
+import:
+  rtl:
+    - path: "src/main/scala"
+      map_to: "rtl"
+  license:
+    - path: "LICENSE"
+  readme:
+    - path: "README.md"
+license:
+  spdx: Apache-2.0
+  file: LICENSE
